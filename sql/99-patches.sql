@@ -55,6 +55,7 @@ PERFORM _patches.apply_patch(
   GRANT SELECT ON TABLE parcel_appellation_view TO bde_user;
   );
   '
+  )
 
 END;
 $PATCHES$;

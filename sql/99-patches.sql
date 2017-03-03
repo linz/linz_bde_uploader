@@ -53,9 +53,8 @@ PERFORM _patches.apply_patch(
   REVOKE ALL ON TABLE parcel_appellation_view FROM PUBLIC;
   GRANT SELECT ON TABLE parcel_appellation_view TO aims_user;
   GRANT SELECT ON TABLE parcel_appellation_view TO bde_user;
-  );
   '
-  )
+  );
 
 END;
 $PATCHES$;
